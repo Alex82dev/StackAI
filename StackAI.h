@@ -304,3 +304,6 @@ void load(const char* filename) {
     // Free allocated memory
     delete[] buffer;
     }
+//Stack Virtual Machine for AI DEV
+
+//by Алексей Немтырев (NemtyrevAI)
