@@ -297,10 +297,13 @@ void load(const char* filename) {
     for (size_t i = 0; i < size; ++i) {
         stack[SP + i] = buffer[i];
     }
-
     // Update stack pointer to reflect new memory size
+
     SP += size;
 
     // Free allocated memory
     delete[] buffer;
     }
+//Stack Virtual Machine for AI DEV
+
+//by Алексей Немтырев (NemtyrevAI)
